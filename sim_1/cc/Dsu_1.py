@@ -194,8 +194,8 @@ val_t_marge_start_calcul_veh_appearance=0.2
 #*****************************************************************************************************************************************************************************************
 
 #variable indicating if we wish to treat the sim resutls or not (writ veh hist files)
-#val_treat_sim_res=0
-val_treat_sim_res=1
+val_treat_sim_res=0
+#val_treat_sim_res=1
 
 #****************************************************************************************************************************************************************************************
 
@@ -210,10 +210,10 @@ val_each_icm_read=0
 #"initially_defined_and_path_dyn_constructed"=when the veh final dest is initially defined but the routing is dynam computed
 #"mixed_dyndefined_or_odwithgiven_path"=when for some entry links we have OD matrix and given path and for some other links the path is dynam defined
 
-val_type_veh_final_dest=Cl_Decisions.TYPE_VEHICLE_FINAL_DESTINATION_AND_PATH["dynamically_defined"]
+#val_type_veh_final_dest=Cl_Decisions.TYPE_VEHICLE_FINAL_DESTINATION_AND_PATH["dynamically_defined"]
 #val_type_veh_final_dest=Cl_Decisions.TYPE_VEHICLE_FINAL_DESTINATION_AND_PATH["initially_defined_and_path_given"]
 #val_type_veh_final_dest=Cl_Decisions.TYPE_VEHICLE_FINAL_DESTINATION_AND_PATH["initially_defined_and_path_dyn_constructed"]
-#val_type_veh_final_dest=Cl_Decisions.TYPE_VEHICLE_FINAL_DESTINATION_AND_PATH["mixed_dyndefined_or_odwithgiven_path"]
+val_type_veh_final_dest=Cl_Decisions.TYPE_VEHICLE_FINAL_DESTINATION_AND_PATH["mixed_dyndefined_or_odwithgiven_path"]
 #*****************************************************************************************************************************************************************************************
 
 #variable indicating how (the algo)  paths are computed when OD matrice and path dyn computed

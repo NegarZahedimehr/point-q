@@ -733,13 +733,14 @@ class Simulation:
 
 				# global variable queue / flow
 				demand_a = 0
+				demand_a2 = 0
 				flow_b = 0
 
 				#while the simulation time is inferior to the limit simulation time 
 				while(self._t_current<t_end_simulation and len(self._heap_even)>0):
 				
 					if self._t_current > time_stop and val_ctm_connect ==1:
-                        # Step 0: create the exchange zone directory if it dosen't exist
+                                                # Step 0: create the exchange zone directory if it dosen't exist
 						if not os.path.exists(val_fol_ctm_connect):
 							os.makedirs(val_fol_ctm_connect)
                           
@@ -763,11 +764,13 @@ class Simulation:
 							for line in f_ctm:
 								line_split = line.split('\t')
 								demand_a = float(line_split[1])
-								flow_b = float(line_split[2])
+								demand_a2 = float(line_split[2])
+								flow_b = float(line_split[3])
 
 						
 						# Step 3: we update entry link A demand
 						self._simul_system.get_network().get_di_entry_links_to_network()[100053].set_lis_parameters_fct_creating_demand_entry_link([demand_a])
+						self._simul_system.get_network().get_di_entry_links_to_network()[100080].set_lis_parameters_fct_creating_demand_entry_link([demand_a2])
 						#print get_lis_parameters_fct_creating_demand_entry_link(self):
 
 						# Step 4: we update flow intersection B
