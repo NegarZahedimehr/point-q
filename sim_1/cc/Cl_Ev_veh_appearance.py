@@ -213,10 +213,13 @@ class Ev_veh_appearance(Cl_Event.Event):
 	v_val_veh_id,v_val_netwk,v_val_type_veh_final_destination,v_val_min_veh_hold_time,v_val_prec_round,\
 	v_val_ev_list,v_file_recording_event_db):
 	
-		
-		t_appear_next_veh=round(self._event_time+v_val_netwk.get_di_entry_links_to_network()\
-		[self._id_entry_link].fct_creating_demand_entry_link(),v_val_prec_round)
-		
+		delta_t = v_val_netwk.get_di_entry_links_to_network()[self._id_entry_link].fct_creating_demand_entry_link()
+		zero_demand = False
+		if delta_t >= 1000000: # demand is zero
+			zero_demand = True
+			delta_t = 5  # check again in 5 seconds
+	
+		t_appear_next_veh=round(self._event_time+delta_t, v_val_prec_round)
 		
 		
 		#creation of the next vehicle
@@ -232,7 +235,9 @@ class Ev_veh_appearance(Cl_Event.Event):
 		message="IN CL_EV_VEH_APPEARANCE IN FUNCT \
 		fct_treat_case_veh_appear_new_demand_final_dest_and_path_dynam_defined_without_sensor_monit \
 		NEXT VEH APPEARANCE EVENT HAS TIME < TIME FIRST EVENT IN THE LIST")
-		
+
+		if zero_demand: return
+      	
 		#we attribute the id to the vehicle
 		self._vehicle.set_id_veh(v_val_veh_id)
 		self._vehicle.set_type_vehicle_final_destination(v_val_type_veh_final_destination)
@@ -374,7 +379,7 @@ class Ev_veh_appearance(Cl_Event.Event):
 		message="IN CL_EV_VEH_APPEARANCE IN FUNCT \
 		fct_treat_case_veh_appear_new_demand_final_dest_and_path_dynam_defined_with_sensor_monit \
 		NEXT VEH APPEARANCE EVENT HAS TIME < TIME FIRST EVENT IN THE LIST")
-		
+
 		#we attribute the id to the vehicle
 		self._vehicle.set_id_veh(v_val_veh_id)
 		
@@ -540,8 +545,13 @@ class Ev_veh_appearance(Cl_Event.Event):
 	def fct_treat_case_veh_appear_new_demand_final_dest_and_path_intial_defined_without_sensor_monit(self,\
 	v_val_veh_id,v_val_netwk,v_val_type_veh_final_destination,v_val_min_veh_hold_time,v_val_prec_round,v_val_ev_list,v_file_recording_event_db):
 	
-		t_appear_next_veh=round(self._event_time+v_val_netwk.get_di_entry_links_to_network()\
-		[self._id_entry_link].fct_creating_demand_entry_link(),v_val_prec_round)
+		delta_t = v_val_netwk.get_di_entry_links_to_network()[self._id_entry_link].fct_creating_demand_entry_link()
+		zero_demand = False
+		if delta_t >= 1000000: # demand is zero
+			zero_demand = True
+			delta_t = 5  # check again in 5 seconds
+	
+		t_appear_next_veh=round(self._event_time+delta_t, v_val_prec_round)
 		
 		#creation of the next vehicle
 		next_veh=Cl_Vehicle.Vehicle(val_t_veh_appearance_at_network=t_appear_next_veh,\
@@ -556,6 +566,8 @@ class Ev_veh_appearance(Cl_Event.Event):
 		message="IN CL_EV_VEH_APPEARANCE IN FUNCT event_treat ,\
 		NEXT VEH APPEARANCE EVENT HAS TIME < TIME FIRST EVENT IN THE LIST")
 		
+		if zero_demand: return
+      	     
 		#we attribute the id to the vehicle
 		self._vehicle.set_id_veh(v_val_veh_id)
 		self._vehicle.set_type_vehicle_final_destination(v_val_type_veh_final_destination)
@@ -900,7 +912,7 @@ class Ev_veh_appearance(Cl_Event.Event):
 		message="IN CL_EV_VEH_APPEARANCE IN FUNCT\
 		fct_treat_case_veh_appear_new_demand_final_dest_intial_defined_path_dyn_computed_without_sensor_monit ,\
 		NEXT VEH APPEARANCE EVENT HAS TIME < TIME FIRST EVENT IN THE LIST")
-		
+  
 		#we attribute the id to the vehicle
 		self._vehicle.set_id_veh(v_val_veh_id)
 		self._vehicle.set_type_vehicle_final_destination(v_val_type_veh_final_destination)
@@ -1593,7 +1605,7 @@ class Ev_veh_appearance(Cl_Event.Event):
 	def fct_treat_case_veh_appear_previous_demand_without_sensor_monit_ctr_eval(self,\
 	v_val_netwk,v_val_type_veh_final_destination,v_val_min_veh_hold_time,v_val_prec_round,v_val_ev_list,v_file_recording_event_db,\
 	v_val_dict_entry_link_info_prev_sim,v_val_dict_veh_info_prev_sim):
-	
+
 		#if the previous demand has generated a veh appearance, (this is  that  we have at least the same number of veh appear)
 		if v_val_dict_entry_link_info_prev_sim[self._id_entry_link] !=[]:
 		
@@ -1766,7 +1778,7 @@ class Ev_veh_appearance(Cl_Event.Event):
 	def fct_treat_case_veh_appear_previous_demand_with_sensor_monit_ctrl_eval(self,\
 	v_val_netwk,v_val_min_veh_hold_time,v_val_type_veh_final_destination,v_val_ti_ctrl_revision_if_decided,v_val_prec_round,v_val_ev_list,\
 	v_file_recording_event_db,v_val_dict_entry_link_info_prev_sim,v_val_dict_veh_info_prev_sim,val_min_nb_vehicles_to_detect):
-	
+
 		#if the previous demand has generated a veh appearance, (this is  that  we have at least the same number of veh appear)
 		if v_val_dict_entry_link_info_prev_sim[self._id_entry_link] !=[]:
 		
@@ -2158,6 +2170,7 @@ class Ev_veh_appearance(Cl_Event.Event):
 	v_file_recording_event_db,v_val_dict_entry_link_info_prev_sim,v_val_dict_veh_info_prev_sim,\
 	v_val_fct_calc_queue_id_when_given_final_dest_and_path_dynam_constructed,val_min_nb_vehicles_to_detect):
 	
+   
 		#if the previous demand has generated a veh appearance, (this is  that  we have at least the same number of veh appear)
 		if v_val_dict_entry_link_info_prev_sim[self._id_entry_link] !=[]:
 		
@@ -2370,8 +2383,7 @@ class Ev_veh_appearance(Cl_Event.Event):
 	def fct_treat_case_new_demand_final_dest_and_path_dynam_defined(self,val_veh_id,val_network,\
 	val_type_veh_final_destination,val_min_veh_hold_time,val_prec_round,val_ev_list,val_file_recording_event_db,\
 	val_min_nb_veh_to_detect):
-	
-			
+
 		#if the control revision does not require sensor monitoring for its t revision
 		if val_network.get_di_intersections()[val_network.get_di_entry_internal_links()\
 		[self._id_entry_link].get_id_head_intersection_node()].get_intersection_control_obj().get_type_control_related_to_t_revision()==\
@@ -2417,7 +2429,7 @@ class Ev_veh_appearance(Cl_Event.Event):
 	def fct_treat_case_new_demand_final_dest_and_path_initial_defined(self,\
 	val_veh_id,val_netwk,val_type_veh_final_destination,val_min_veh_hold_time,val_prec_round,val_ev_list,val_file_recording_event_db,\
 	val_min_nb_vehicles_to_detect):
-	
+
 		#if the control revision does not require sensor monitoring for its t revision
 		if val_netwk.get_di_intersections()[val_netwk.get_di_entry_internal_links()\
 		[self._id_entry_link].get_id_head_intersection_node()].get_intersection_control_obj().get_type_control_related_to_t_revision()==\
@@ -2518,7 +2530,6 @@ class Ev_veh_appearance(Cl_Event.Event):
 	v_val_min_nb_veh_to_detect):
 	#v_val_fct_calc_queue_id_when_given_final_dest_and_path_dynam_constructed=None):
 		
-		
 		#if the routing of teh entry link is dynamically defined
 		if v_val_network.get_di_entry_links_to_network()[self._id_entry_link].get_type_routing_entry_lk_when_mixed_management()==-1:
 		#Cl_Network_Entry_Link.\
@@ -2562,7 +2573,8 @@ class Ev_veh_appearance(Cl_Event.Event):
 	def fct_treat_case_previous_demand_final_dest_and_path_dyn_defined(self,\
 	val_netwk,val_type_veh_final_destination,val_min_veh_hold_time,val_prec_round,val_ev_list,val_file_recording_event_db,\
 	val_dict_entry_link_info_prev_sim,val_dict_veh_info_prev_sim,val_min_nb_veh_to_detect):
-	
+
+   
 		#if the control revision does not require sensor monitoring for its t revision
 		if val_netwk.get_di_intersections()[val_netwk.get_di_entry_internal_links()\
 		[self._id_entry_link].get_id_head_intersection_node()].get_intersection_control_obj().get_type_control_related_to_t_revision()==\
@@ -2714,7 +2726,6 @@ class Ev_veh_appearance(Cl_Event.Event):
 	v_val_dict_entry_link_info_prev_sim,v_val_dict_veh_info_prev_sim,v_val_min_nb_veh_to_detect):
 	#v_val_fct_calc_queue_id_when_given_final_dest_and_path_dynam_constructed=None):
 	
-		
 		#if a previous demand is employed a mixed rout management is employed and for the entry  link is a dynam rout is employed
 		if v_val_netwk.get_di_entry_links_to_network()[self._id_entry_link].get_type_routing_entry_lk_when_mixed_management()==-1:
 		#Cl_Network_Entry_Link.\

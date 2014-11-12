@@ -18,7 +18,7 @@ def fct_calcul_demand_entry_link_stoch_case(param):
 #function defining the time between two successive vehicle appearances  at en entry link,	when deterministic demand is considered
 def fct_calcul_demand_entry_link_deterministic_case(param):
 	if param <= 0.0000001:
-		return 600
+		return 1000000
 	else:
 		return 1 / param
 #*****************************************************************************************************************************************************************************************
