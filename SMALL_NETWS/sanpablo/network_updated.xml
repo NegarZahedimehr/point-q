@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <settings/>
+  <NetworkSet>
+    <network>
+      <description/>
+      <NodeList>
+        <node id="1" node_name="SP&amp;Ashby" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="1"/>
+            <output link_id="3"/>
+            <output link_id="5"/>
+            <output link_id="7"/>
+          </outputs>
+          <inputs>
+            <input link_id="2"/>
+            <input link_id="4"/>
+            <input link_id="6"/>
+            <input link_id="8"/>
+          </inputs>
+          <position>
+            <point lat="37.85214491996503" lng="-122.28666722774506" elevation="0"/>
+          </position>
+          <node_type id="3" name="Signalized Intersection"/>
+        </node>
+        <node id="2" node_name="SP&amp;Heinz" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="8"/>
+            <output link_id="9"/>
+            <output link_id="10"/>
+            <output link_id="11"/>
+          </outputs>
+          <inputs>
+            <input link_id="7"/>
+            <input link_id="10"/>
+            <input link_id="12"/>
+          </inputs>
+          <position>
+            <point lat="37.854377114685626" lng="-122.28744439780712" elevation="0"/>
+          </position>
+          <node_type id="3" name="Signalized Intersection"/>
+        </node>
+        <node id="3" node_name="SP&amp;Grayson" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="12"/>
+            <output link_id="13"/>
+            <output link_id="15"/>
+          </outputs>
+          <inputs>
+            <input link_id="11"/>
+            <input link_id="14"/>
+            <input link_id="16"/>
+          </inputs>
+          <position>
+            <point lat="37.85620687095403" lng="-122.2880271077156" elevation="0"/>
+          </position>
+          <node_type id="3" name="Signalized Intersection"/>
+        </node>
+        <node id="4" node_name="SP&amp;Dwight" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="16"/>
+            <output link_id="17"/>
+            <output link_id="19"/>
+            <output link_id="21"/>
+          </outputs>
+          <inputs>
+            <input link_id="15"/>
+            <input link_id="18"/>
+            <input link_id="20"/>
+            <input link_id="22"/>
+          </inputs>
+          <position>
+            <point lat="37.86109235178515" lng="-122.28954926133156" elevation="0"/>
+          </position>
+          <node_type id="3" name="Signalized Intersection"/>
+        </node>
+        <node id="5" node_name="SP&amp;Allston" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="22"/>
+            <output link_id="23"/>
+            <output link_id="25"/>
+            <output link_id="27"/>
+          </outputs>
+          <inputs>
+            <input link_id="21"/>
+            <input link_id="24"/>
+            <input link_id="26"/>
+            <input link_id="28"/>
+          </inputs>
+          <position>
+            <point lat="37.866381943779906" lng="-122.29125380516052" elevation="0"/>
+          </position>
+          <node_type id="3" name="Signalized Intersection"/>
+        </node>
+        <node id="6" node_name="SP&amp;Addison" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="28"/>
+            <output link_id="29"/>
+            <output link_id="31"/>
+          </outputs>
+          <inputs>
+            <input link_id="27"/>
+            <input link_id="30"/>
+            <input link_id="32"/>
+          </inputs>
+          <position>
+            <point lat="37.8678212696421" lng="-122.29177683591843" elevation="0"/>
+          </position>
+          <node_type id="3" name="Signalized Intersection"/>
+        </node>
+        <node id="7" node_name="SP&amp;University" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="32"/>
+            <output link_id="33"/>
+            <output link_id="35"/>
+            <output link_id="37"/>
+          </outputs>
+          <inputs>
+            <input link_id="31"/>
+            <input link_id="34"/>
+            <input link_id="36"/>
+            <input link_id="38"/>
+          </inputs>
+          <position>
+            <point lat="37.86910388168724" lng="-122.29212954640388" elevation="0"/>
+          </position>
+          <node_type id="3" name="Signalized Intersection"/>
+        </node>
+        <node id="8" node_name="SP&amp;Delaware" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="38"/>
+            <output link_id="39"/>
+            <output link_id="41"/>
+            <output link_id="43"/>
+          </outputs>
+          <inputs>
+            <input link_id="37"/>
+            <input link_id="40"/>
+            <input link_id="42"/>
+            <input link_id="44"/>
+          </inputs>
+          <position>
+            <point lat="37.87168544789279" lng="-122.29297511279583" elevation="0"/>
+          </position>
+          <node_type id="3" name="Signalized Intersection"/>
+        </node>
+        <node id="9" node_name="SP&amp;Cedar" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="44"/>
+            <output link_id="45"/>
+            <output link_id="47"/>
+            <output link_id="49"/>
+          </outputs>
+          <inputs>
+            <input link_id="43"/>
+            <input link_id="46"/>
+            <input link_id="48"/>
+            <input link_id="50"/>
+          </inputs>
+          <position>
+            <point lat="37.875215435785094" lng="-122.29409627616405" elevation="0"/>
+          </position>
+          <node_type id="3" name="Signalized Intersection"/>
+        </node>
+        <node id="10" node_name="SP&amp;Gilman" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="50"/>
+            <output link_id="51"/>
+            <output link_id="53"/>
+            <output link_id="55"/>
+          </outputs>
+          <inputs>
+            <input link_id="49"/>
+            <input link_id="52"/>
+            <input link_id="54"/>
+            <input link_id="56"/>
+          </inputs>
+          <position>
+            <point lat="37.88049131166242" lng="-122.29579344391823" elevation="0"/>
+          </position>
+          <node_type id="3" name="Signalized Intersection"/>
+        </node>
+        <node id="11" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="2"/>
+          </outputs>
+          <inputs>
+            <input link_id="1"/>
+          </inputs>
+          <position>
+            <point lat="37.85136130617075" lng="-122.28642046451569" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="12" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="4"/>
+            <output link_id="5"/>
+          </outputs>
+          <inputs>
+            <input link_id="3"/>
+          </inputs>
+          <position>
+            <point lat="37.852369413192925" lng="-122.28549778461456" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="13" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="6"/>
+          </outputs>
+          <inputs>
+            <input link_id="5"/>
+            <input link_id="5"/>
+          </inputs>
+          <position>
+            <point lat="37.85194795836252" lng="-122.28770792484283" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="14" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="10"/>
+          </outputs>
+          <inputs>
+            <input link_id="9"/>
+            <input link_id="10"/>
+          </inputs>
+          <position>
+            <point lat="37.854269106819636" lng="-122.28801101446152" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="15" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="14"/>
+          </outputs>
+          <inputs>
+            <input link_id="13"/>
+          </inputs>
+          <position>
+            <point lat="37.856094630268245" lng="-122.28851392865181" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="16" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="18"/>
+          </outputs>
+          <inputs>
+            <input link_id="17"/>
+          </inputs>
+          <position>
+            <point lat="37.861201408455486" lng="-122.28875666856766" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="17" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="20"/>
+          </outputs>
+          <inputs>
+            <input link_id="19"/>
+          </inputs>
+          <position>
+            <point lat="37.86094941318647" lng="-122.29027882218361" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="18" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="24"/>
+          </outputs>
+          <inputs>
+            <input link_id="23"/>
+          </inputs>
+          <position>
+            <point lat="37.8665471050714" lng="-122.29008167982101" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="19" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="26"/>
+          </outputs>
+          <inputs>
+            <input link_id="25"/>
+          </inputs>
+          <position>
+            <point lat="37.86618925513863" lng="-122.2922945022583" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="20" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="30"/>
+          </outputs>
+          <inputs>
+            <input link_id="29"/>
+          </inputs>
+          <position>
+            <point lat="37.86761005734596" lng="-122.29273974895477" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="21" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="34"/>
+          </outputs>
+          <inputs>
+            <input link_id="33"/>
+          </inputs>
+          <position>
+            <point lat="37.869253156587064" lng="-122.29095607995987" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="22" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="36"/>
+          </outputs>
+          <inputs>
+            <input link_id="35"/>
+          </inputs>
+          <position>
+            <point lat="37.86889531979594" lng="-122.2931769490242" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="23" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="40"/>
+          </outputs>
+          <inputs>
+            <input link_id="39"/>
+          </inputs>
+          <position>
+            <point lat="37.871790783613015" lng="-122.29214698076248" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="24" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="42"/>
+          </outputs>
+          <inputs>
+            <input link_id="41"/>
+          </inputs>
+          <position>
+            <point lat="37.87156317357644" lng="-122.29356452822685" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="25" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="46"/>
+          </outputs>
+          <inputs>
+            <input link_id="45"/>
+          </inputs>
+          <position>
+            <point lat="37.87525725049243" lng="-122.29385487735271" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="26" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="48"/>
+          </outputs>
+          <inputs>
+            <input link_id="47"/>
+          </inputs>
+          <position>
+            <point lat="37.8751566834347" lng="-122.29441344738007" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="27" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="52"/>
+          </outputs>
+          <inputs>
+            <input link_id="51"/>
+          </inputs>
+          <position>
+            <point lat="37.88086602844059" lng="-122.29592084884644" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="28" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="54"/>
+          </outputs>
+          <inputs>
+            <input link_id="53"/>
+          </inputs>
+          <position>
+            <point lat="37.88062680269492" lng="-122.29509472846985" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+        <node id="29" in_sync="false">
+          <roadway_markers>
+            <marker name="" postmile="0"/>
+          </roadway_markers>
+          <outputs>
+            <output link_id="56"/>
+          </outputs>
+          <inputs>
+            <input link_id="55"/>
+          </inputs>
+          <position>
+            <point lat="37.88031771341278" lng="-122.29664504528046" elevation="0"/>
+          </position>
+          <node_type id="4" name="simple"/>
+        </node>
+      </NodeList>
+      <LinkList>
+        <link lanes="1" lane_offset="0" length="97.13469913223071" id="1" in_sync="true">
+          <begin node_id="1"/>
+          <end node_id="11"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.85215" lng="-122.28667000000002" elevation="0"/>
+            <point lat="37.852140000000006" lng="-122.28674000000001" elevation="0"/>
+            <point lat="37.85204" lng="-122.28670000000001" elevation="0"/>
+            <point lat="37.85172" lng="-122.2866" elevation="0"/>
+            <point lat="37.851350000000004" lng="-122.28648000000001" elevation="0"/>
+          </position>
+          <shape>}~_fFtbkiV@LRG~@ShAW</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="97.33665779883265" id="2" in_sync="true">
+          <begin node_id="11"/>
+          <end node_id="1"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.85136" lng="-122.28635000000001" elevation="0"/>
+            <point lat="37.851620000000004" lng="-122.28644000000001" elevation="0"/>
+            <point lat="37.852160000000005" lng="-122.28661000000001" elevation="0"/>
+            <point lat="37.85215" lng="-122.28667000000002" elevation="0"/>
+          </position>
+          <shape>_z_fFt`kiVs@PkB`@@J</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-1" length="105.98287390085771" id="3" in_sync="true">
+          <begin node_id="1"/>
+          <end node_id="12"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.85215" lng="-122.28667000000002" elevation="0"/>
+            <point lat="37.852160000000005" lng="-122.28661000000001" elevation="0"/>
+            <point lat="37.852380000000004" lng="-122.28550000000001" elevation="0"/>
+          </position>
+          <shape>}~_fFtbkiVAKk@}E</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-1" length="105.98287390085771" id="4" in_sync="true">
+          <begin node_id="12"/>
+          <end node_id="1"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.852380000000004" lng="-122.28550000000001" elevation="0"/>
+            <point lat="37.852160000000005" lng="-122.28661000000001" elevation="0"/>
+            <point lat="37.85215" lng="-122.28667000000002" elevation="0"/>
+          </position>
+          <shape>k``fFj{jiVj@|E@J</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-1" length="94.10973951321228" id="5" in_sync="true">
+          <begin node_id="1"/>
+          <end node_id="13"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.85215" lng="-122.28667000000002" elevation="0"/>
+            <point lat="37.852140000000006" lng="-122.28674000000001" elevation="0"/>
+            <point lat="37.85213" lng="-122.28678000000001" elevation="0"/>
+            <point lat="37.852120000000006" lng="-122.28684000000001" elevation="0"/>
+            <point lat="37.852030000000006" lng="-122.28729000000001" elevation="0"/>
+            <point lat="37.85195" lng="-122.28771" elevation="0"/>
+          </position>
+          <shape>}~_fFtbkiV@L@F@JPxANrA</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-1" length="94.10973951321228" id="6" in_sync="true">
+          <begin node_id="13"/>
+          <end node_id="1"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.85195" lng="-122.28771" elevation="0"/>
+            <point lat="37.852030000000006" lng="-122.28729000000001" elevation="0"/>
+            <point lat="37.852120000000006" lng="-122.28684000000001" elevation="0"/>
+            <point lat="37.85213" lng="-122.28678000000001" elevation="0"/>
+            <point lat="37.852140000000006" lng="-122.28674000000001" elevation="0"/>
+            <point lat="37.85215" lng="-122.28667000000002" elevation="0"/>
+          </position>
+          <shape>u}_fFdikiVOsAQyAAKAGAM</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="275.21170291848364" id="7" in_sync="true">
+          <begin node_id="1"/>
+          <end node_id="2"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.85215" lng="-122.28667000000002" elevation="0"/>
+            <point lat="37.852160000000005" lng="-122.28661000000001" elevation="0"/>
+            <point lat="37.853" lng="-122.28688000000001" elevation="0"/>
+            <point lat="37.853530000000006" lng="-122.28706000000001" elevation="0"/>
+            <point lat="37.85361" lng="-122.28708" elevation="0"/>
+            <point lat="37.854400000000005" lng="-122.28732000000001" elevation="0"/>
+            <point lat="37.85437" lng="-122.28746000000001" elevation="0"/>
+          </position>
+          <shape>}~_fFtbkiVAKgDt@iBb@OB}Cn@DZ</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="262.4392842956224" id="8" in_sync="true">
+          <begin node_id="2"/>
+          <end node_id="1"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.85437" lng="-122.28746000000001" elevation="0"/>
+            <point lat="37.85351" lng="-122.28718" elevation="0"/>
+            <point lat="37.852970000000006" lng="-122.28701000000001" elevation="0"/>
+            <point lat="37.852630000000005" lng="-122.28690000000002" elevation="0"/>
+            <point lat="37.85224" lng="-122.28677" elevation="0"/>
+            <point lat="37.852140000000006" lng="-122.28674000000001" elevation="0"/>
+            <point lat="37.85215" lng="-122.28667000000002" elevation="0"/>
+          </position>
+          <shape>yl`fFrgkiVjDw@jBa@bAUlAYREAM</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="49.607354902816084" id="9" in_sync="true">
+          <begin node_id="2"/>
+          <end node_id="14"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.85437" lng="-122.28746000000001" elevation="0"/>
+            <point lat="37.85427" lng="-122.28801000000001" elevation="0"/>
+          </position>
+          <shape>yl`fFrgkiVRlB</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="49.607354902816084" id="10" in_sync="true">
+          <begin node_id="14"/>
+          <end node_id="2"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.85427" lng="-122.28801000000001" elevation="0"/>
+            <point lat="37.85437" lng="-122.28746000000001" elevation="0"/>
+          </position>
+          <shape>el`fF`kkiVSmB</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="235.08977494051612" id="11" in_sync="true">
+          <begin node_id="2"/>
+          <end node_id="3"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.85437" lng="-122.28746000000001" elevation="0"/>
+            <point lat="37.854400000000005" lng="-122.28732000000001" elevation="0"/>
+            <point lat="37.85493" lng="-122.28750000000001" elevation="0"/>
+            <point lat="37.855810000000005" lng="-122.28778000000001" elevation="0"/>
+            <point lat="37.856230000000004" lng="-122.28792000000001" elevation="0"/>
+            <point lat="37.8562" lng="-122.28805000000001" elevation="0"/>
+          </position>
+          <shape>yl`fFrgkiVE[iBb@oDv@sAZDX</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="210.22354082905332" id="12" in_sync="true">
+          <begin node_id="3"/>
+          <end node_id="2"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.8562" lng="-122.28805000000001" elevation="0"/>
+            <point lat="37.85528" lng="-122.28775000000002" elevation="0"/>
+            <point lat="37.8549" lng="-122.28762" elevation="0"/>
+            <point lat="37.85437" lng="-122.28746000000001" elevation="0"/>
+          </position>
+          <shape>gx`fFhkkiVvD{@jAYhB_@</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="42.78320485860796" id="13" in_sync="true">
+          <begin node_id="3"/>
+          <end node_id="15"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.8562" lng="-122.28805000000001" elevation="0"/>
+            <point lat="37.856100000000005" lng="-122.28852" elevation="0"/>
+          </position>
+          <shape>gx`fFhkkiVR|A</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="42.78320485860796" id="14" in_sync="true">
+          <begin node_id="15"/>
+          <end node_id="3"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.856100000000005" lng="-122.28852" elevation="0"/>
+            <point lat="37.8562" lng="-122.28805000000001" elevation="0"/>
+          </position>
+          <shape>sw`fFfnkiVS}A</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="577.8649114546016" id="15" in_sync="true">
+          <begin node_id="3"/>
+          <end node_id="4"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.8562" lng="-122.28805000000001" elevation="0"/>
+            <point lat="37.856230000000004" lng="-122.28792000000001" elevation="0"/>
+            <point lat="37.856860000000005" lng="-122.28812" elevation="0"/>
+            <point lat="37.85721" lng="-122.28823000000001" elevation="0"/>
+            <point lat="37.85765" lng="-122.28838" elevation="0"/>
+            <point lat="37.8579" lng="-122.28844000000001" elevation="0"/>
+            <point lat="37.858070000000005" lng="-122.28849000000001" elevation="0"/>
+            <point lat="37.858520000000006" lng="-122.28864000000002" elevation="0"/>
+            <point lat="37.85907" lng="-122.28883" elevation="0"/>
+            <point lat="37.859390000000005" lng="-122.28893000000001" elevation="0"/>
+            <point lat="37.860260000000004" lng="-122.28922000000001" elevation="0"/>
+            <point lat="37.8607" lng="-122.28936000000002" elevation="0"/>
+            <point lat="37.86079" lng="-122.28939000000001" elevation="0"/>
+            <point lat="37.861110000000004" lng="-122.28949000000001" elevation="0"/>
+            <point lat="37.8611" lng="-122.28955" elevation="0"/>
+          </position>
+          <shape>gx`fFhkkiVEY}Bf@eATwA\q@Ja@HyA\mBd@_ARmDx@wAZQD_AR@J</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="568.0472215748905" id="16" in_sync="true">
+          <begin node_id="4"/>
+          <end node_id="3"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.8611" lng="-122.28955" elevation="0"/>
+            <point lat="37.861090000000004" lng="-122.28962000000001" elevation="0"/>
+            <point lat="37.860240000000005" lng="-122.28934000000001" elevation="0"/>
+            <point lat="37.85933" lng="-122.28906" elevation="0"/>
+            <point lat="37.85877" lng="-122.28886000000001" elevation="0"/>
+            <point lat="37.85849" lng="-122.28879" elevation="0"/>
+            <point lat="37.858270000000005" lng="-122.2887" elevation="0"/>
+            <point lat="37.85804" lng="-122.28862000000001" elevation="0"/>
+            <point lat="37.85781" lng="-122.28854000000001" elevation="0"/>
+            <point lat="37.857620000000004" lng="-122.28850000000001" elevation="0"/>
+            <point lat="37.85718" lng="-122.28836000000001" elevation="0"/>
+            <point lat="37.85683" lng="-122.28824000000002" elevation="0"/>
+            <point lat="37.8562" lng="-122.28805000000001" elevation="0"/>
+          </position>
+          <shape>{vafFttkiV@LhDw@tDw@nBg@v@Mj@Ql@Ol@Od@GvA[dAW|Be@</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="70.32432660622793" id="17" in_sync="true">
+          <begin node_id="4"/>
+          <end node_id="16"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.8611" lng="-122.28955" elevation="0"/>
+            <point lat="37.861110000000004" lng="-122.28949000000001" elevation="0"/>
+            <point lat="37.861200000000004" lng="-122.28876000000001" elevation="0"/>
+          </position>
+          <shape>{vafFttkiVAKQqC</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="70.32432660622793" id="18" in_sync="true">
+          <begin node_id="16"/>
+          <end node_id="4"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.861200000000004" lng="-122.28876000000001" elevation="0"/>
+            <point lat="37.861110000000004" lng="-122.28949000000001" elevation="0"/>
+            <point lat="37.8611" lng="-122.28955" elevation="0"/>
+          </position>
+          <shape>owafFvokiVPpC@J</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="66.31451626953144" id="19" in_sync="true">
+          <begin node_id="4"/>
+          <end node_id="17"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.8611" lng="-122.28955" elevation="0"/>
+            <point lat="37.861090000000004" lng="-122.28962000000001" elevation="0"/>
+            <point lat="37.86095" lng="-122.29028000000001" elevation="0"/>
+          </position>
+          <shape>{vafFttkiV@LZbC</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="66.31451626953144" id="20" in_sync="true">
+          <begin node_id="17"/>
+          <end node_id="4"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86095" lng="-122.29028000000001" elevation="0"/>
+            <point lat="37.861090000000004" lng="-122.28962000000001" elevation="0"/>
+            <point lat="37.8611" lng="-122.28955" elevation="0"/>
+          </position>
+          <shape>}uafFfykiV[cCAM</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="617.2519828692878" id="21" in_sync="true">
+          <begin node_id="4"/>
+          <end node_id="5"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.8611" lng="-122.28955" elevation="0"/>
+            <point lat="37.861110000000004" lng="-122.28949000000001" elevation="0"/>
+            <point lat="37.861380000000004" lng="-122.28958000000002" elevation="0"/>
+            <point lat="37.86287" lng="-122.29005000000001" elevation="0"/>
+            <point lat="37.86366" lng="-122.29030000000002" elevation="0"/>
+            <point lat="37.86431" lng="-122.29052000000001" elevation="0"/>
+            <point lat="37.864630000000005" lng="-122.29063000000001" elevation="0"/>
+            <point lat="37.865990000000004" lng="-122.29106000000002" elevation="0"/>
+            <point lat="37.86639" lng="-122.29119000000001" elevation="0"/>
+            <point lat="37.86638000000001" lng="-122.29125" elevation="0"/>
+          </position>
+          <shape>{vafFttkiVAKu@PiH|A}Cp@aCj@_AToGtAoAX@J</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="617.8895798741677" id="22" in_sync="true">
+          <begin node_id="5"/>
+          <end node_id="4"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86638000000001" lng="-122.29125" elevation="0"/>
+            <point lat="37.86637" lng="-122.29131000000001" elevation="0"/>
+            <point lat="37.864920000000005" lng="-122.29085" elevation="0"/>
+            <point lat="37.864610000000006" lng="-122.29075000000002" elevation="0"/>
+            <point lat="37.86363" lng="-122.29044" elevation="0"/>
+            <point lat="37.86285" lng="-122.29018" elevation="0"/>
+            <point lat="37.86151" lng="-122.28975000000001" elevation="0"/>
+            <point lat="37.861090000000004" lng="-122.28962000000001" elevation="0"/>
+            <point lat="37.8611" lng="-122.28955" elevation="0"/>
+          </position>
+          <shape>{wbfFh_liV@J`H{A|@SbE}@zCs@jGuArAYAM</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="104.35519382074969" id="23" in_sync="true">
+          <begin node_id="5"/>
+          <end node_id="18"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86638000000001" lng="-122.29125" elevation="0"/>
+            <point lat="37.86639" lng="-122.29119000000001" elevation="0"/>
+            <point lat="37.86654" lng="-122.29008" elevation="0"/>
+          </position>
+          <shape>{wbfFh_liVAK]}E</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="104.35519382074969" id="24" in_sync="true">
+          <begin node_id="18"/>
+          <end node_id="5"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86654" lng="-122.29008" elevation="0"/>
+            <point lat="37.86639" lng="-122.29119000000001" elevation="0"/>
+            <point lat="37.86638000000001" lng="-122.29125" elevation="0"/>
+          </position>
+          <shape>{xbfF~wkiV\|E@J</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="93.81237332493544" id="25" in_sync="true">
+          <begin node_id="5"/>
+          <end node_id="19"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86638000000001" lng="-122.29125" elevation="0"/>
+            <point lat="37.86637" lng="-122.29131000000001" elevation="0"/>
+            <point lat="37.86619" lng="-122.29229000000001" elevation="0"/>
+          </position>
+          <shape>{wbfFh_liV@Jb@bE</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="93.81237332493544" id="26" in_sync="true">
+          <begin node_id="19"/>
+          <end node_id="5"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86619" lng="-122.29229000000001" elevation="0"/>
+            <point lat="37.86637" lng="-122.29131000000001" elevation="0"/>
+            <point lat="37.86638000000001" lng="-122.29125" elevation="0"/>
+          </position>
+          <shape>uvbfFxeliVc@cEAK</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="184.99931453531715" id="27" in_sync="true">
+          <begin node_id="5"/>
+          <end node_id="6"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86638000000001" lng="-122.29125" elevation="0"/>
+            <point lat="37.86639" lng="-122.29119000000001" elevation="0"/>
+            <point lat="37.866780000000006" lng="-122.29132000000001" elevation="0"/>
+            <point lat="37.86726" lng="-122.29148" elevation="0"/>
+            <point lat="37.867540000000005" lng="-122.29156" elevation="0"/>
+            <point lat="37.867850000000004" lng="-122.29166000000001" elevation="0"/>
+            <point lat="37.86782" lng="-122.29179" elevation="0"/>
+          </position>
+          <shape>{wbfFh_liVAKmAX_B^w@N}@RDX</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="172.23305622864547" id="28" in_sync="true">
+          <begin node_id="6"/>
+          <end node_id="5"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86782" lng="-122.29179" elevation="0"/>
+            <point lat="37.867250000000006" lng="-122.29160000000002" elevation="0"/>
+            <point lat="37.866800000000005" lng="-122.29146000000001" elevation="0"/>
+            <point lat="37.86637" lng="-122.29131000000001" elevation="0"/>
+            <point lat="37.86638000000001" lng="-122.29125" elevation="0"/>
+          </position>
+          <shape>{`cfFtbliVpBe@xA[tA]AK</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="86.40395005687074" id="29" in_sync="true">
+          <begin node_id="6"/>
+          <end node_id="20"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86782" lng="-122.29179" elevation="0"/>
+            <point lat="37.867740000000005" lng="-122.29216000000001" elevation="0"/>
+            <point lat="37.86762" lng="-122.29274000000001" elevation="0"/>
+          </position>
+          <shape>{`cfFtbliVNhAVrB</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="86.40395005687074" id="30" in_sync="true">
+          <begin node_id="20"/>
+          <end node_id="6"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86762" lng="-122.29274000000001" elevation="0"/>
+            <point lat="37.867740000000005" lng="-122.29216000000001" elevation="0"/>
+            <point lat="37.86782" lng="-122.29179" elevation="0"/>
+          </position>
+          <shape>s_cfFrhliVWsBOiA</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="157.61366059915835" id="31" in_sync="true">
+          <begin node_id="6"/>
+          <end node_id="7"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86782" lng="-122.29179" elevation="0"/>
+            <point lat="37.867850000000004" lng="-122.29166000000001" elevation="0"/>
+            <point lat="37.868170000000006" lng="-122.29176000000001" elevation="0"/>
+            <point lat="37.868550000000006" lng="-122.29189000000001" elevation="0"/>
+            <point lat="37.86907" lng="-122.29205" elevation="0"/>
+            <point lat="37.86912" lng="-122.29206" elevation="0"/>
+          </position>
+          <shape>{`cfFtbliVEY_ARkAXgB^I@</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="140.9395806490905" id="32" in_sync="true">
+          <begin node_id="7"/>
+          <end node_id="6"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86905" lng="-122.29217000000001" elevation="0"/>
+            <point lat="37.86816" lng="-122.29189000000001" elevation="0"/>
+            <point lat="37.86782" lng="-122.29179" elevation="0"/>
+          </position>
+          <shape>qhcfF`eliVpDw@bAS</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="104.1645681337485" id="33" in_sync="true">
+          <begin node_id="7"/>
+          <end node_id="21"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.869060000000005" lng="-122.29212000000001" elevation="0"/>
+            <point lat="37.86907" lng="-122.29205" elevation="0"/>
+            <point lat="37.86921" lng="-122.29095000000001" elevation="0"/>
+          </position>
+          <shape>shcfFvdliVAM[{E</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="104.50614398138434" id="34" in_sync="true">
+          <begin node_id="21"/>
+          <end node_id="7"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.869310000000006" lng="-122.29097000000002" elevation="0"/>
+            <point lat="37.86928" lng="-122.29119000000001" elevation="0"/>
+            <point lat="37.869170000000004" lng="-122.29208000000001" elevation="0"/>
+            <point lat="37.869150000000005" lng="-122.29214" elevation="0"/>
+          </position>
+          <shape>ejcfFp}kiVDj@TpDBJ</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="94.93038376272293" id="35" in_sync="true">
+          <begin node_id="7"/>
+          <end node_id="22"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.869150000000005" lng="-122.29214" elevation="0"/>
+            <point lat="37.86914" lng="-122.29221000000001" elevation="0"/>
+            <point lat="37.868950000000005" lng="-122.29319000000001" elevation="0"/>
+          </position>
+          <shape>eicfFzdliV@Ld@bE</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="89.81676271105839" id="36" in_sync="true">
+          <begin node_id="22"/>
+          <end node_id="7"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86885" lng="-122.29316000000001" elevation="0"/>
+            <point lat="37.86889" lng="-122.29299" elevation="0"/>
+            <point lat="37.86905" lng="-122.29217000000001" elevation="0"/>
+          </position>
+          <shape>igcfFfkliVGa@_@cD</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="300.4543311831983" id="37" in_sync="true">
+          <begin node_id="7"/>
+          <end node_id="8"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.86912" lng="-122.29206" elevation="0"/>
+            <point lat="37.869170000000004" lng="-122.29208000000001" elevation="0"/>
+            <point lat="37.87013" lng="-122.29241" elevation="0"/>
+            <point lat="37.87042" lng="-122.2925" elevation="0"/>
+            <point lat="37.871370000000006" lng="-122.29281" elevation="0"/>
+            <point lat="37.87169" lng="-122.29292000000001" elevation="0"/>
+            <point lat="37.871680000000005" lng="-122.29297000000001" elevation="0"/>
+          </position>
+          <shape>_icfFjdliVIB_E`Ay@P}D|@_AT@H</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="301.8178099727419" id="38" in_sync="true">
+          <begin node_id="8"/>
+          <end node_id="7"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.871680000000005" lng="-122.29297000000001" elevation="0"/>
+            <point lat="37.871680000000005" lng="-122.29302000000001" elevation="0"/>
+            <point lat="37.870720000000006" lng="-122.29273" elevation="0"/>
+            <point lat="37.87042" lng="-122.29263000000002" elevation="0"/>
+            <point lat="37.869690000000006" lng="-122.29239000000001" elevation="0"/>
+            <point lat="37.86914" lng="-122.29221000000001" elevation="0"/>
+            <point lat="37.86909" lng="-122.29219" elevation="0"/>
+          </position>
+          <shape>_ycfF`jliV?H~Dy@z@SpCo@lBc@HC</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="73.2975748195383" id="39" in_sync="true">
+          <begin node_id="8"/>
+          <end node_id="23"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.871680000000005" lng="-122.29297000000001" elevation="0"/>
+            <point lat="37.87169" lng="-122.29292000000001" elevation="0"/>
+            <point lat="37.871750000000006" lng="-122.29252000000001" elevation="0"/>
+            <point lat="37.8718" lng="-122.29215" elevation="0"/>
+          </position>
+          <shape>_ycfF`jliVAIKoAIiA</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="73.2975748195383" id="40" in_sync="true">
+          <begin node_id="23"/>
+          <end node_id="8"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.8718" lng="-122.29215" elevation="0"/>
+            <point lat="37.871750000000006" lng="-122.29252000000001" elevation="0"/>
+            <point lat="37.87169" lng="-122.29292000000001" elevation="0"/>
+            <point lat="37.871680000000005" lng="-122.29297000000001" elevation="0"/>
+          </position>
+          <shape>wycfF|dliVHhAJnA@H</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="54.251666516793634" id="41" in_sync="true">
+          <begin node_id="8"/>
+          <end node_id="24"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.871680000000005" lng="-122.29297000000001" elevation="0"/>
+            <point lat="37.871680000000005" lng="-122.29302000000001" elevation="0"/>
+            <point lat="37.871570000000006" lng="-122.29357000000002" elevation="0"/>
+          </position>
+          <shape>_ycfF`jliV?HTlB</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="54.251666516793634" id="42" in_sync="true">
+          <begin node_id="24"/>
+          <end node_id="8"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.871570000000006" lng="-122.29357000000002" elevation="0"/>
+            <point lat="37.871680000000005" lng="-122.29302000000001" elevation="0"/>
+            <point lat="37.871680000000005" lng="-122.29297000000001" elevation="0"/>
+          </position>
+          <shape>ixcfFxmliVUmB?I</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="415.6991000543649" id="43" in_sync="true">
+          <begin node_id="8"/>
+          <end node_id="9"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.871680000000005" lng="-122.29297000000001" elevation="0"/>
+            <point lat="37.87169" lng="-122.29292000000001" elevation="0"/>
+            <point lat="37.872600000000006" lng="-122.29319000000001" elevation="0"/>
+            <point lat="37.87306" lng="-122.29334000000001" elevation="0"/>
+            <point lat="37.87346" lng="-122.29346000000001" elevation="0"/>
+            <point lat="37.87478" lng="-122.29390000000001" elevation="0"/>
+            <point lat="37.875220000000006" lng="-122.29403" elevation="0"/>
+            <point lat="37.87521" lng="-122.29410000000001" elevation="0"/>
+          </position>
+          <shape>_ycfF`jliVAIuDt@{A\oAVgGvAwAX@L</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="414.2537496265478" id="44" in_sync="true">
+          <begin node_id="9"/>
+          <end node_id="8"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.87521" lng="-122.29410000000001" elevation="0"/>
+            <point lat="37.87520000000001" lng="-122.29416" elevation="0"/>
+            <point lat="37.873740000000005" lng="-122.29369000000001" elevation="0"/>
+            <point lat="37.87344" lng="-122.29359000000001" elevation="0"/>
+            <point lat="37.87257" lng="-122.29330000000002" elevation="0"/>
+            <point lat="37.87212" lng="-122.29317" elevation="0"/>
+            <point lat="37.871680000000005" lng="-122.29302000000001" elevation="0"/>
+            <point lat="37.871680000000005" lng="-122.29297000000001" elevation="0"/>
+          </position>
+          <shape>aodfFbqliV@JbH}Az@SlDy@xAYvA]?I</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="21.838253651670634" id="45" in_sync="true">
+          <begin node_id="9"/>
+          <end node_id="25"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.87521" lng="-122.29410000000001" elevation="0"/>
+            <point lat="37.875220000000006" lng="-122.29403" elevation="0"/>
+            <point lat="37.875260000000004" lng="-122.29386000000001" elevation="0"/>
+          </position>
+          <shape>aodfFbqliVAMGa@</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="21.838253651670634" id="46" in_sync="true">
+          <begin node_id="25"/>
+          <end node_id="9"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.875260000000004" lng="-122.29386000000001" elevation="0"/>
+            <point lat="37.875220000000006" lng="-122.29403" elevation="0"/>
+            <point lat="37.87521" lng="-122.29410000000001" elevation="0"/>
+          </position>
+          <shape>kodfFroliVF`@@L</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="28.05012299982683" id="47" in_sync="true">
+          <begin node_id="9"/>
+          <end node_id="26"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.87521" lng="-122.29410000000001" elevation="0"/>
+            <point lat="37.87520000000001" lng="-122.29416" elevation="0"/>
+            <point lat="37.875150000000005" lng="-122.29441000000001" elevation="0"/>
+          </position>
+          <shape>aodfFbqliV@JHp@</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="28.05012299982683" id="48" in_sync="true">
+          <begin node_id="26"/>
+          <end node_id="9"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.875150000000005" lng="-122.29441000000001" elevation="0"/>
+            <point lat="37.87520000000001" lng="-122.29416" elevation="0"/>
+            <point lat="37.87521" lng="-122.29410000000001" elevation="0"/>
+          </position>
+          <shape>undfF`sliVIq@AK</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="619.5280231451146" id="49" in_sync="true">
+          <begin node_id="9"/>
+          <end node_id="10"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.87521" lng="-122.29410000000001" elevation="0"/>
+            <point lat="37.875220000000006" lng="-122.29403" elevation="0"/>
+            <point lat="37.876400000000004" lng="-122.29440000000001" elevation="0"/>
+            <point lat="37.87758" lng="-122.29480000000001" elevation="0"/>
+            <point lat="37.878440000000005" lng="-122.29507000000001" elevation="0"/>
+            <point lat="37.87876" lng="-122.29518000000002" elevation="0"/>
+            <point lat="37.87962" lng="-122.29545000000002" elevation="0"/>
+            <point lat="37.87982" lng="-122.29551000000001" elevation="0"/>
+            <point lat="37.88007" lng="-122.29559" elevation="0"/>
+            <point lat="37.88051" lng="-122.29573" elevation="0"/>
+            <point lat="37.88049" lng="-122.29579000000001" elevation="0"/>
+          </position>
+          <shape>aodfFbqliVAMkFhAkFnAkDt@_ATkDt@g@Jq@NwAZBJ</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="618.090951595629" id="50" in_sync="true">
+          <begin node_id="10"/>
+          <end node_id="9"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.88049" lng="-122.29579000000001" elevation="0"/>
+            <point lat="37.880480000000006" lng="-122.29586" elevation="0"/>
+            <point lat="37.87979" lng="-122.29564" elevation="0"/>
+            <point lat="37.8791" lng="-122.29542000000001" elevation="0"/>
+            <point lat="37.878730000000004" lng="-122.29530000000001" elevation="0"/>
+            <point lat="37.87755000000001" lng="-122.29492" elevation="0"/>
+            <point lat="37.87668" lng="-122.29464000000002" elevation="0"/>
+            <point lat="37.87637" lng="-122.29454000000001" elevation="0"/>
+            <point lat="37.8757" lng="-122.29432000000001" elevation="0"/>
+            <point lat="37.87520000000001" lng="-122.29416" elevation="0"/>
+            <point lat="37.87521" lng="-122.29410000000001" elevation="0"/>
+          </position>
+          <shape>apefFt{liV@LhCk@hCk@hAWjFkAlDw@|@SdCk@bB_@AK</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="48.23897763938496" id="51" in_sync="true">
+          <begin node_id="10"/>
+          <end node_id="27"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.88049" lng="-122.29579000000001" elevation="0"/>
+            <point lat="37.88051" lng="-122.29573" elevation="0"/>
+            <point lat="37.880880000000005" lng="-122.29585000000002" elevation="0"/>
+          </position>
+          <shape>apefFt{liVCKiAV</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="0" length="48.99306978832058" id="52" in_sync="true">
+          <begin node_id="27"/>
+          <end node_id="10"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.88085" lng="-122.29599" elevation="0"/>
+            <point lat="37.880480000000006" lng="-122.29586" elevation="0"/>
+            <point lat="37.88049" lng="-122.29579000000001" elevation="0"/>
+          </position>
+          <shape>irefF||liVhAYAM</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="62.665794039683" id="53" in_sync="true">
+          <begin node_id="10"/>
+          <end node_id="28"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.88049" lng="-122.29579000000001" elevation="0"/>
+            <point lat="37.88051" lng="-122.29573" elevation="0"/>
+            <point lat="37.880630000000004" lng="-122.2951" elevation="0"/>
+          </position>
+          <shape>apefFt{liVCKW}B</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="62.665794039683" id="54" in_sync="true">
+          <begin node_id="28"/>
+          <end node_id="10"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.880630000000004" lng="-122.2951" elevation="0"/>
+            <point lat="37.88051" lng="-122.29573" elevation="0"/>
+            <point lat="37.88049" lng="-122.29579000000001" elevation="0"/>
+          </position>
+          <shape>}pefFjwliVV|BBJ</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="77.07150165843922" id="55" in_sync="true">
+          <begin node_id="10"/>
+          <end node_id="29"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.88049" lng="-122.29579000000001" elevation="0"/>
+            <point lat="37.880480000000006" lng="-122.29586" elevation="0"/>
+            <point lat="37.88036" lng="-122.29642000000001" elevation="0"/>
+            <point lat="37.880320000000005" lng="-122.29664000000001" elevation="0"/>
+          </position>
+          <shape>apefFt{liV@LVnBFj@</shape>
+          <link_type name=""/>
+        </link>
+        <link lanes="1" lane_offset="-0.5" length="77.07150165843922" id="56" in_sync="true">
+          <begin node_id="29"/>
+          <end node_id="10"/>
+          <roads>
+            <road name=""/>
+          </roads>
+          <dynamics type="CTM"/>
+          <position>
+            <point lat="37.880320000000005" lng="-122.29664000000001" elevation="0"/>
+            <point lat="37.88036" lng="-122.29642000000001" elevation="0"/>
+            <point lat="37.880480000000006" lng="-122.29586" elevation="0"/>
+            <point lat="37.88049" lng="-122.29579000000001" elevation="0"/>
+          </position>
+          <shape>_oefF~`miVGk@WoBAM</shape>
+          <link_type name=""/>
+        </link>
+      </LinkList>
+      <position>
+        <point lat="37.88059185112147" lng="-122.29573604674908" elevation="0"/>
+      </position>
+    </network>
+  </NetworkSet>
+  <SignalSet/>
+  <SensorSet lockedForEdit="false" lockedForHistory="false"/>
+  <EventSet/>
+  <ControllerSet/>
+</scenario>
