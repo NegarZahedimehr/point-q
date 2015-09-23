@@ -536,7 +536,6 @@ class Ev_veh_flow_changes(Cl_Event.Event):
 		fct_select_appropriate_algo_demand_variat(va_type_algo_to_employ=self._ty_algo_computing_current_demand)
 		
 		
-		
 		#update the demand parameter of the related  entry link
 		val_network.get_di_entry_links_to_network()[self._id_entry_lk_with_varying_demand].set_lis_parameters_fct_creating_demand_entry_link(\
 		[rep[0]])
